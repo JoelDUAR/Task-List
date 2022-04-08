@@ -24,13 +24,20 @@ deleteTask(task:Task) {
     ()=>{
     this.tasks = this.tasks.filter(
       (t)=>{
-        return t.id !== task.id});
+        return t.id !== task.id });
   })
+  
 }
 
 toggleReminder(task:Task){
   task.reminder = !task.reminder
   this.taskService.updateTaskReminder(task).subscribe();
+}
+
+addTask(task:Task){
+  this.taskService.addTask(task).subscribe((task)=>(
+    this.tasks.push(task)
+  ));
 }
 
 }

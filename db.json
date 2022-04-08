@@ -7,16 +7,16 @@
       "reminder": true
     },
     {
-      "id": 2,
-      "text": "Hacer las compras para la cena",
-      "day": "Abril 7 a las 17:00",
-      "reminder": true
+      "id": 4,
+      "text": "hacer andar esto",
+      "day": "mañana",
+      "reminder": false
     },
     {
-      "id": 3,
-      "text": "Investigar sobre Bootstrap",
-      "day": "Abril 7 a las 19:00",
-      "reminder": false
+      "id": 5,
+      "text": "Terminando Proyecto",
+      "day": "Abril 9 18:00",
+      "reminder": true
     }
   ]
 }
