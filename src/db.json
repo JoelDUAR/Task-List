@@ -16,7 +16,7 @@
             "id": 3,
             "text":"Investigar sobre Bootstrap",
             "day": "Abril 7 a las 19:00",
-            "reminder":true
+            "reminder":false
         },
         {
             "id": 4,
